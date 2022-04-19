@@ -75,7 +75,7 @@ hr {
     max-height: 30px;
 }
 
-/* MAIN */
+/* MAIN CLASSES */
 
 .row {
     max-width: 960px;
@@ -149,6 +149,8 @@ hr {
 .heart:hover {
     color: red;
 }
+
+/* FOOTER CLASSES */
 
 .foot-container {
     max-width: 960px;
