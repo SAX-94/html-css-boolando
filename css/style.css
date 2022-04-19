@@ -111,3 +111,15 @@ a {
 .sost {
     background-color: green;
 }
+
+.product-img-hover {
+    display: none;
+}
+
+.product:hover .product-img-hover {
+    display: inline-block;
+}
+
+.product:hover .product-img {
+    display: none;
+}
