@@ -11,7 +11,8 @@ body {
 header {
     background-color: #ff6900;
     color: white;
-    height: 60px;    
+    height: 60px;
+    box-shadow: 0 2px 2px #8e8b8b;
 }
 
 main {
@@ -26,9 +27,10 @@ a {
 
 footer {
     background-color: #1a1a1a;
-    height: 150px;
+    max-height: 150px;
     color: white;
-    padding-top: 2rem;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
 }
 
 hr {
