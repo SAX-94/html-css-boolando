@@ -24,7 +24,18 @@ a {
     text-decoration: none;
 }
 
-/* HEADER */
+footer {
+    background-color: #1a1a1a;
+    height: 150px;
+    color: white;
+    padding-top: 2rem;
+}
+
+hr {
+    border: 1px solid white;
+}
+
+/* HEADER CLASSES */
 
 .header-container {
     max-width: 960px;
@@ -126,6 +137,8 @@ a {
     display: none;
 }
 
+/* HEART AND HOVER */
+
 .heart {
     position: absolute;
     top: 1%;
@@ -135,4 +148,29 @@ a {
 
 .heart:hover {
     color: red;
+}
+
+.foot-container {
+    max-width: 960px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.foot-container h4 {
+    padding-bottom: 0.7rem;
+}
+
+.foot-container a {
+    color: white;
+    font-size: 0.75rem;
+    padding-right: 0.3rem;
+}
+
+.foot-container h5 {
+    padding-bottom: 0.4rem;
+}
+
+.foot-container i {
+    padding-right: 0.4rem;
 }
